@@ -1,5 +1,14 @@
 # POLYBRUTUS 14D — Exact labelled Euclidean metric and eightfold ideal graph mode
 
+## Verified public science release
+
+- **Official Zenodo DOI:** [10.5281/zenodo.24408836](https://doi.org/10.5281/zenodo.24408836), public [record 24408836](https://zenodo.org/records/24408836).
+- **Frozen source tag:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d14/tree/v0.1.0) at commit `853687b71dd32b05c807aa47b1c8d7b48d7e97e4`.
+- **GitHub CI:** [D14 exact and independent validation](https://github.com/Topbrutus/polybrutus-d14/actions/runs/44842685141), conclusion `success` on the frozen science commit.
+- **Zenodo artifacts:** tagged Git source ZIP, PDF scientific note and complete JSON table of all 171 labelled distances; three-file public integrity check completed.
+- **Limits:** affine metric dimension 14 and one chosen theoretical graph model; no physical extra dimension or novelty of the general orthogonal-extension method.
+
+
 **Research author and scientific responsibility:** Gabriel St-Pierre (Topbrutus), independent researcher.  
 **Publication status:** Exact computational mathematics case study; not independently human peer reviewed.  
 **Generative AI disclosure:** OpenAI ChatGPT (Astra) substantially assisted geometry verification, independently implemented rational checker, graph-model calculations, writing and publication workflow. AI is not an author.
