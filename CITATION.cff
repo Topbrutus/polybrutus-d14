@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "Cite the verified Zenodo DOI after public release; beforehand cite the frozen tagged GitHub source."
+message: "Cite the publicly verified Zenodo Polybrutus D14 preprint, DOI 10.5281/zenodo.24408836."
 title: "Polybrutus 14D: Exact Conservative Euclidean Completion and an Eightfold Weighted-Graph Mode"
 authors:
   - family-names: "St-Pierre"
     given-names: "Gabriel"
     orcid: "https://orcid.org/0009-0009-9297-2336"
 version: "0.1.0"
+doi: 10.5281/zenodo.24408836
 date-released: "2026-11-20"
 url: "https://github.com/Topbrutus/polybrutus-d14"
 license: MIT
