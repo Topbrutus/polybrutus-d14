@@ -3,7 +3,7 @@
   "dimension": 14,
   "repository": "Topbrutus/polybrutus-d14",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 19,
   "pairs": 171,
   "affine_rank": 14,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24408769",
   "parent_github_tag": "Topbrutus/polybrutus-d13@v0.1.0",
   "parent_tag_commit": "4d5f10de586e6677ddbe1d90b18218b46602d14e",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "853687b71dd32b05c807aa47b1c8d7b48d7e97e4",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24408836,
+  "zenodo_doi": "10.5281/zenodo.24408836",
   "scientific_delta": "Exact Polybrutus 14D labelled metric preserving 153 distances; ideal complete weighted-graph eigenvalue 19/2 with multiplicity 8.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted mathematical checking, independent code implementation, drafting, source auditing and release; not an author.",
-  "verification": "Two mathematical programs passed on authorized workstation; GitHub CI not yet run",
-  "next_action": "Create private D14 GitHub, run CI, freeze verified tag, stage unique Zenodo and publish only after integrity checks and tag public verification."
+  "verification": {
+    "coordinate_affine_rank": "PASS",
+    "centered_distance_gram_rank": "PASS",
+    "exact_gram_psd_factorization": "PASS",
+    "parent_labelled_pairs": "153/153 PASS",
+    "new_labelled_pairs": "18/18 PASS",
+    "independent_rational_metric": "171/171 PASS",
+    "negative_controls": "4/4 PASS",
+    "ideal_graph_eigenvalues": "19/2 x8; 9 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "Only after next user go, start D15 from immutable D14 tag v0.1.0, target 20 vertices, 190 labelled pairs, 171 previous distances preserved and rank 15. Do not create D15 before another go.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44842685141,
+    "conclusion": "success",
+    "head_sha": "853687b71dd32b05c807aa47b1c8d7b48d7e97e4"
+  },
+  "github_main_note": "Documentation-only DOI/manifest/checksum updates may move main; the scientific source tag remains unchanged.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D14_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 161521,
+      "sha256": "6b65451898cde89d272991e720640d41ec809afe0e303f54f5c66f7bd6236474"
+    },
+    {
+      "name": "POLYBRUTUS_14D_NOTE.pdf",
+      "size": 158981,
+      "sha256": "c9f85f6bf94f57722a7096b716fc5fd043c6f70bad8478d40fb0f5a56bf24351"
+    },
+    {
+      "name": "certificate_d14.json",
+      "size": 14524,
+      "sha256": "750cd7592e2ce8d5643b2c6b63d1fb0bdc18d14d80a4d874e59d20abc270c967"
+    }
+  ],
+  "publication_approval": "User defined go to initiate one new dimensional release and authorized GitHub+Zenodo API workflow; go received for D14."
 }
